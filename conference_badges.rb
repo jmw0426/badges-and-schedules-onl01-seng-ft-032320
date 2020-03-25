@@ -32,7 +32,7 @@ def assign_rooms(speakers)
  
 end
 
-
+require "pry"
 def printer(attendees)
 
   batch_badge_creator(attendees).each_with_index do |message|
@@ -46,6 +46,8 @@ def printer(attendees)
   end
  
   end 
+
+binding.pry
 
  end
 
