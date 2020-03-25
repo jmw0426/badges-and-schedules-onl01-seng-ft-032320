@@ -39,11 +39,13 @@ def printer(attendees)
     
     puts message
 
+  
+  end
+  
   assign_rooms(attendees).each_with_index do |message|
     
     puts message
   
-  end
  
   end 
 
