@@ -47,8 +47,6 @@ def printer(attendees)
  
   end 
 
-binding.pry
-
  end
 
 
