@@ -32,7 +32,6 @@ def assign_rooms(speakers)
  
 end
 
-require "pry"
 
 def printer(attendees)
 
@@ -43,8 +42,6 @@ def printer(attendees)
   assign_rooms(attendees).each_with_index do |message|
     
     puts message
-  
-  binding.pry
   
   end
  
